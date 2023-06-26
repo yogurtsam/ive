@@ -139,10 +139,10 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <image id="teaser" autoplay muted loop playsinline height="100%">
+      <img id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/images/framework.png"
                 type="image/png">
-      </image>
+      </img>
       <h2 class="subtitle has-text-centered">
         Framework.
       </h2>
@@ -273,16 +273,15 @@
         <div class="content">
           <h2 class="title is-3">SAM Results</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            Using SAM
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+          <video id="sam-video" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/dollyzoom-stacked.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      <!--/ SAM. -->
     </div>
 
 
@@ -292,10 +291,9 @@
         <h2 class="title is-3">Intraframe Restoration Module</h2>
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+              restoring the region-level and full images
             </p>
-            <video id="matting-video" controls playsinline height="100%">
+            <video id="intraframe-video" controls playsinline height="100%">
               <source src="./static/videos/matting.mp4"
                       type="video/mp4">
             </video>
